@@ -1,14 +1,23 @@
-import React,{ useState } from 'react'
-import ErrorPage from './pages/errorPage'
+import React from 'react'
+import {Sidebar} from "../src/"
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <ErrorPage />
+      <div className='' >
+        <Sidebar position='left'   headerText='HeaderText'  >
+          
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+            <h1>hello</h1>
+          
+        </Sidebar>
         </div>
     </>
   )
